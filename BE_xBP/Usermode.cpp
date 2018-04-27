@@ -551,7 +551,7 @@ namespace BE
                         break;
                     case 5:
                         break;
-                    case 16:
+                    case 16: // NT_HANDLE_LIST
                         psi = reinterpret_cast<PSYSTEM_HANDLE_INFORMATION>(SystemInformation);
                         if (psi)
                         {
